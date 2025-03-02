@@ -149,6 +149,10 @@ main {
   border-radius: 16px;
 }
 
+.content:hover .content-sub-title {
+  color: #3752fd;
+}
+
 .content-sub-title span {
   border-radius: 8px;
   background-color: white;

@@ -54,7 +54,8 @@ for (let button of btn) {
     moreLeft == 1 &&
       alert("congrates!!! You have completed all the current task");
 
-    const parentTitle = button.parentNode.parentNode;
+    const btnParent = button.parentNode; //parent of button
+    const parentTitle = btnParent.parentNode; //The required parent where the title is
 
     const title = parentTitle.querySelector(".content-title").innerText;
 
