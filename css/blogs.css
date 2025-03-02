@@ -46,6 +46,7 @@ nav {
   border: 2px solid transparent;
   cursor: pointer;
   transition: 0.3s;
+  color: white;
 }
 .btn a {
   text-decoration: none;
