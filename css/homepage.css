@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f7ff;
+  padding-bottom: 50px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 35px;
+  max-width: 1536px;
+  background-color: white;
+  padding: 24px;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin: 24px auto;
+}
+#logo {
+  display: flex;
+  align-items: center;
+}
+#logo img {
+  width: 50px;
+  padding-right: 10px;
+}
+#text-bold {
+  font-weight: bold;
+}
+#right-content {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+#chekbox-container {
+  background-color: #f4f7ff;
+  padding: 5px 20px;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 32px;
+  font-weight: bold;
+}
+#chekbox-container img {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+#color-container {
+  display: flex;
+  align-items: center;
+  background-color: #f4f7ff;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+main {
+  max-width: 1536px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 24px;
+}
+#allContent {
+  background-color: white;
+
+  border-radius: 16px;
+}
+
+#heading {
+  display: grid;
+  grid-template-columns: 1.7fr 3fr 1.7fr;
+  gap: 24px;
+  padding: 24px;
+}
+#task,
+#calender {
+  padding: 32px 20px 25px 32px;
+  background-color: #f4f7ff;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+#task p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e5862;
+}
+#task h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#task img,
+#calender img {
+  height: 28px;
+  width: 28px;
+}
+
+#discover {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 20px 50px 20px 40px;
+  background: linear-gradient(to left, #9ba8f8, #3752fd);
+  border-radius: 12px;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+#calender {
+  font-size: 22px;
+}
+#activity {
+  background-color: white;
+  padding-top: 20px;
+  border-radius: 16px;
+}
+
+.flex-center p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#content-container {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 16px;
+  background-color: #f4f7ff;
+  border-radius: 16px;
+}
+
+.content-sub-title span {
+  border-radius: 8px;
+  background-color: white;
+  padding: 8px 16px;
+}
+.content-title {
+  color: #00303b;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content-description {
+  background-color: white;
+  padding: 16px;
+  color: gray;
+  border-radius: 8px;
+}
+.deadline-title {
+  font-size: 14px;
+  color: gray;
+}
+.content h4 {
+  font-weight: 500;
+}
+.finish {
+  display: flex;
+  justify-content: space-between;
+}
+
+#all-activity {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 24px;
+}
+.activity-style {
+  background-color: #f4f7ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* shared items*/
+a {
+  text-decoration: none;
+}
+.image-wraper {
+  padding: 18px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-size: 500;
+  background-color: #3752fd;
+  border: 2px solid transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-disable {
+  opacity: 30%;
+  cursor: default;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px auto;
+}
+hr {
+  border: 2px dashed rgba(128, 128, 128, 0.164);
+}
